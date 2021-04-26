@@ -1,5 +1,5 @@
 {% set name = "libmicrohttpd" %}
-{% set version = "0.9.72" %}
+{% set version = "0.9.73" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://ftp.gnu.org/gnu/libmicrohttpd/libmicrohttpd-{{ version }}.tar.gz
-  sha256: 0ae825f8e0d7f41201fd44a0df1cf454c1cb0bc50fe9d59c26552260264c2ff8
+  sha256: a37b2f1b88fd1bfe74109586be463a434d34e773530fc2a74364cfcf734c032e
 
 build:
   number: 0
