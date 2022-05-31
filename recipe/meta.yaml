@@ -10,7 +10,7 @@ source:
   sha256: 9278907a6f571b391aab9644fd646a5108ed97311ec66f6359cebbedb0a4e3bb
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage("libmicrohttpd", max_pin="x.x") }}
